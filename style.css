@@ -1,5 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 body {
     background-color: #017F44;
+    height: 2000px;
   }
 
 .center {
@@ -11,6 +19,7 @@ body {
   }
 
   div {
+    text-align: center;
     display: flex;
     flex-direction: row;
   }
@@ -42,4 +51,25 @@ body {
 
   li a:hover {
     background-color: #111;
+  }
+
+  #contact {
+    display: block;
+    width: 50%;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+
+  #projects {
+    display: block;
+    width: 50%;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+
+  #about {
+    display: block;
+    width: 50%;
+    height: 200px;
+    background-color: #f0f0f0;
   }
